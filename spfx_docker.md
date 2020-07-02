@@ -10,20 +10,20 @@ docker pull waldekm/spfx:latest
 
 
 
-/*List all containers*/
+<!-- List all containers -->
 docker container ls
 
-List all images
+<!-- List all images -->
 docker image ls
 
-Stop container by container id
+<!-- Stop container by container id -->
 docker container stop <container_id>
 
-Remove container by container id
+<!-- Remove container by container id -->
 docker container rm <container_id>
 
-If don't want stop and remove, can force remove
+<!-- If don't want stop and remove, can force remove -->
 docker container rm -f <container_id>
 
-Remove image
+<!-- Remove image -->
 docker image rm <image_id>
